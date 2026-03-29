@@ -1,0 +1,121 @@
+{
+  "Header": {
+    "brand": "Federico Mosqueira",
+    "navigation": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Methodology", "href": "#methodology" },
+      { "label": "About", "href": "#about" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": { "label": "Book a call", "href": "#contact" }
+  },
+
+  "Hero": {
+    "title": "",
+    "subtitle": "",
+    "paragraph": "",
+    "primary_cta": "",
+    "secondary_cta": "",
+    "image": ""
+  },
+
+  "Difference": {
+    "section_label": "WHAT MAKES THE DIFFERENCE",
+    "title": "",
+    "items": [
+      {
+        "title": "",
+        "description": "",
+        "icon": ""
+      }
+    ]
+  },
+
+  "ServicesOverview": {
+    "section_label": "SERVICES",
+    "title": "End-to-End AI & Automation Services",
+    "categories": [
+      {
+        "category_title": "",
+        "service_list": [
+          { "label": "", "href": "" }
+        ]
+      }
+    ]
+  },
+
+  "Projects": {
+    "section_label": "PROJECTS",
+    "title": "Selected Case Studies",
+    "cta": "",
+    "items": [
+      {
+        "category": "",
+        "title": "",
+        "image": "",
+        "cta": ""
+      }
+    ]
+  },
+
+  "Methodology": {
+    "section_label": "METHODOLOGY",
+    "title": "",
+    "steps": [
+      {
+        "step_number": "",
+        "step_title": "",
+        "description": ""
+      }
+    ]
+  },
+
+  "About": {
+    "section_label": "",
+    "title": "Meet Federico Mosqueira",
+    "text": "",
+    "images": [
+      { "src": "", "alt": "" },
+      { "src": "", "alt": "" }
+    ]
+  },
+
+  "Testimonials": {
+    "section_label": "CLIENT FEEDBACK",
+    "title": "",
+    "items": [
+      {
+        "quote": "",
+        "author_name": "",
+        "author_role": ""
+      }
+    ]
+  },
+
+  "FAQ": {
+    "section_label": "FAQ",
+    "title": "Answers to the most common objections",
+    "questions": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+
+  "Contact": {
+    "section_label": "",
+    "title": "",
+    "subtitle": "",
+    "cta": ""
+  },
+
+  "Footer": {
+    "brand": "Federico Mosqueira",
+    "columns": [
+      { "label": "", "href": "" }
+    ],
+    "legal": ""
+  }
+}

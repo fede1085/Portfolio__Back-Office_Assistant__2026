@@ -1,0 +1,370 @@
+{
+    "page": {
+        "url": "https://federicomosqueira.site/resume",
+        "page_type": "portfolio / resume",
+        "layout_type": "single column with internal grids (full-width and three-column sections)",
+        "layout_description": "A single-page scrolling web resume and portfolio featuring clear distinct sections, centralized headers, and grid or list-based item organization.",
+        "main_container_width": "max ~1152px (Tailwind class:'max-w-6xl')",
+        "visual_structure": {
+            "column_layout": "primarily single column for narrative text, likely multi-column/grid for skills and tools",
+            "content_alignment": "centered headers, left-aligned or centered content blocks",
+            "grid_or_stack": "stack of sections, containing internal grids (Soft Skills, Tools)",
+            "responsive_behavior": "unknown"
+        }
+    },
+    "navigation": {
+        "anchors": [
+            "#overview",
+            "#personal-skills",
+            "#skills",
+            "#experience",
+            "#contact"
+        ],
+        "menu_items": [
+            "Overview",
+            "Skills",
+            "Tools",
+            "Experience",
+            "Hire me"
+        ]
+    },
+    "sections": [
+        {
+            "section_order": 1,
+            "section_name": "Navigation Bar",
+            "anchor": "unknown",
+            "dom_selector": "nav",
+            "html_tag": "nav",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "horizontal row",
+                "columns": "1",
+                "content_distribution": "space-around or space-between",
+                "alignment": "center"
+            },
+            "content_elements": [
+                "buttons"
+            ],
+            "current_text": {
+                "headings": [],
+                "subheadings": [],
+                "paragraphs": [],
+                "list_items": [],
+                "buttons": [
+                    "Overview",
+                    "Skills",
+                    "Tools",
+                    "Experience",
+                    "Hire me"
+                ]
+            },
+            "assets": {
+                "images": [],
+                "icons": [],
+                "other_assets": []
+            }
+        },
+        {
+            "section_order": 2,
+            "section_name": "Hero Section",
+            "anchor": "#overview",
+            "dom_selector": "header",
+            "html_tag": "header",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "stack",
+                "columns": "1",
+                "content_distribution": "vertical stack",
+                "alignment": "center"
+            },
+            "content_elements": [
+                "heading",
+                "subheading",
+                "paragraph",
+                "buttons"
+            ],
+            "current_text": {
+                "headings": [
+                    "Federico Mosqueira"
+                ],
+                "subheadings": [
+                    "ADMINISTRATIVE & BACK-OFFICE ASSISTANT | MICROSOFT 365 OFFICE WORK"
+                ],
+                "paragraphs": [
+                    "Administrative and back-office professional focused on document handling, information organization and daily office operations using Microsoft 365 tools.",
+                    "Based in Antwerp, Belgium"
+                ],
+                "list_items": [],
+                "buttons": [
+                    "View Portfolio",
+                    "Download Curriculum"
+                ]
+            },
+            "assets": {
+                "images": [
+                    "Profile picture of Federico Mosqueira"
+                ],
+                "icons": [],
+                "other_assets": []
+            }
+        },
+        {
+            "section_order": 3,
+            "section_name": "Value Proposition",
+            "anchor": "unknown",
+            "dom_selector": "section",
+            "html_tag": "section",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "stack",
+                "columns": "1",
+                "content_distribution": "vertical stack",
+                "alignment": "center or left aligned"
+            },
+            "content_elements": [
+                "heading",
+                "paragraph"
+            ],
+            "current_text": {
+                "headings": [
+                    "VALUE PROPOSITION"
+                ],
+                "subheadings": [],
+                "paragraphs": [
+                    "Administrative and back-office support focused on organization, document management and information clarity inside modern Microsoft 365 office environments. I work comfortably with digital tools and collaboration platforms, helping teams keep information structured, accessible and easy to coordinate."
+                ],
+                "list_items": [],
+                "buttons": []
+            },
+            "assets": {
+                "images": [],
+                "icons": [],
+                "other_assets": []
+            }
+        },
+        {
+            "section_order": 4,
+            "section_name": "Soft Skills",
+            "anchor": "#personal-skills",
+            "dom_selector": "section",
+            "html_tag": "section",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "grid",
+                "columns": "multi-column (likely 2-4)",
+                "content_distribution": "grid cards",
+                "alignment": "left aligned or centered in cards"
+            },
+            "content_elements": [
+                "heading",
+                "subheading",
+                "icons",
+                "paragraph"
+            ],
+            "current_text": {
+                "headings": [
+                    "SOFT SKILLS"
+                ],
+                "subheadings": [
+                    "Productivity-Centered Competencies",
+                    "Analytical Thinking",
+                    "Problem Solving",
+                    "Collaboration & Teamwork",
+                    "Critical Thinking",
+                    "Digital Curiosity",
+                    "User-Focused Mindset",
+                    "Self-Management & Initiative",
+                    "Continuous Learning"
+                ],
+                "paragraphs": [
+                    "Understand processes, patterns and information flows.",
+                    "Approach administrative tasks with practical solutions.",
+                    "Work comfortably with colleagues across departments.",
+                    "Evaluate information and decisions with clarity.",
+                    "Interest in modern digital tools and productivity systems.",
+                    "Understand how technology supports real users.",
+                    "Take initiative and organize work independently.",
+                    "Stay curious and adaptable in digital environments."
+                ],
+                "list_items": [],
+                "buttons": []
+            },
+            "assets": {
+                "images": [],
+                "icons": [
+                    "🧩",
+                    "🔍",
+                    "🤝",
+                    "🧠",
+                    "💻",
+                    "💡",
+                    "🚀",
+                    "📚"
+                ],
+                "other_assets": []
+            }
+        },
+        {
+            "section_order": 5,
+            "section_name": "Experience",
+            "anchor": "#experience",
+            "dom_selector": "section",
+            "html_tag": "section",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "timeline or list",
+                "columns": "1",
+                "content_distribution": "vertical stack",
+                "alignment": "left aligned"
+            },
+            "content_elements": [
+                "heading",
+                "subheading",
+                "list"
+            ],
+            "current_text": {
+                "headings": [
+                    "TIMELINE"
+                ],
+                "subheadings": [
+                    "Work Experience"
+                ],
+                "paragraphs": [
+                    "Independent Administrative & Digital Workflow Support",
+                    "2024–Present",
+                    "Antwerp"
+                ],
+                "list_items": [
+                    "Supported digital organization of documents and information across modern collaboration tools",
+                    "Worked with productivity environments such as Microsoft 365, Google Workspace and collaboration platforms",
+                    "Explored practical ways to structure digital workflows and organize operational information"
+                ],
+                "buttons": []
+            },
+            "assets": {
+                "images": [],
+                "icons": [],
+                "other_assets": []
+            }
+        },
+        {
+            "section_order": 6,
+            "section_name": "Tool Stack",
+            "anchor": "#skills",
+            "dom_selector": "section",
+            "html_tag": "section",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "grid or columns",
+                "columns": "multi-column categories",
+                "content_distribution": "categorized lists",
+                "alignment": "left aligned"
+            },
+            "content_elements": [
+                "heading",
+                "paragraph",
+                "subheading",
+                "list"
+            ],
+            "current_text": {
+                "headings": [
+                    "TOOL STACK"
+                ],
+                "subheadings": [
+                    "AI Productivity Tools",
+                    "Automation Exploration",
+                    "Digital Design Awareness",
+                    "Research Support",
+                    "Productivity Suite",
+                    "Digital Multimedia Tools"
+                ],
+                "paragraphs": [
+                    "Digital tools I am familiar with in modern office environments",
+                    "These tools reflect my digital literacy and adaptability to modern productivity ecosystems."
+                ],
+                "list_items": [
+                    "OpenAI Tools → ChatGPT, OpenAI Agent Kit,CustomGPTs, Codex, Sora, GPTImage-1",
+                    "Google AI Tools → Gemini, Veo3, Nano Banana, Gemma, Google AI Studio, NotebookLM",
+                    "Google Firebase",
+                    "Figma",
+                    "Codex",
+                    "VS Code, Google Antigravity",
+                    "Perplexity",
+                    "Google AI Studio, NotebookLM",
+                    "Google Workspace",
+                    "Notion Platform",
+                    "Veo3",
+                    "Nano Banana",
+                    "Sora"
+                ],
+                "buttons": []
+            },
+            "assets": {
+                "images": [],
+                "icons": [],
+                "other_assets": []
+            }
+        },
+        {
+            "section_order": 7,
+            "section_name": "Contact and Footer",
+            "anchor": "#contact",
+            "dom_selector": "footer",
+            "html_tag": "footer",
+            "css_classes": [],
+            "visual_layout": {
+                "layout_type": "stack",
+                "columns": "1",
+                "content_distribution": "vertical stack",
+                "alignment": "center"
+            },
+            "content_elements": [
+                "heading",
+                "subheading",
+                "buttons",
+                "paragraph"
+            ],
+            "current_text": {
+                "headings": [
+                    "Looking for a reliable administrative and back-office professional?"
+                ],
+                "subheadings": [
+                    "Available for administrative, office or back-office roles in Microsoft 365 environments.",
+                    "Contact Info"
+                ],
+                "paragraphs": [
+                    "hello@federicomosqueira.site",
+                    "Antwerp, Belgium",
+                    "+31 6 42656946",
+                    "© 2026 Federico Mosqueira. All rights reserved."
+                ],
+                "list_items": [],
+                "buttons": [
+                    "Get in touch"
+                ]
+            },
+            "assets": {
+                "images": [],
+                "icons": [],
+                "other_assets": []
+            }
+        }
+    ],
+    "style_information": {
+        "possible_css_framework": "unknown",
+        "css_patterns_detected": [],
+        "typography_clues": [
+            "uppercase headers",
+            "emoji icons used as visual anchors"
+        ],
+        "spacing_clues": [
+            "vertical stacking typical of section-based layouts"
+        ]
+    },
+    "technology_guess": {
+        "framework": "unknown",
+        "build_tool": "unknown",
+        "styling_system": "unknown",
+        "javascript_libraries": []
+    }
+}

@@ -1,0 +1,35 @@
+# Project Sitemap - Curriculum Vitae Business Technology Consultant
+
+.
+├── @docs/
+│   ├── Professional_Profile/
+│   │   ├── 01_Professional_Profile/
+│   │   ├── 02_Workflow_&_Methodology/
+│   │   └── 03_Sitemaps/
+│   └── Research_Docs/
+├── components/
+│   ├── Experience.tsx
+│   ├── Features.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── Services.tsx
+│   ├── Skills.tsx
+│   └── SoftSkills.tsx
+├── public/
+│   ├── app-logos/
+│   │   ├── admin_tools/
+│   │   ├── core_tools/
+│   │   ├── productivity_tools/
+│   │   └── workflow_tools/
+│   ├── profile_pic.png
+│   └── profile_pic.svg
+├── App.tsx
+├── constants.ts
+├── index.html
+├── index.tsx
+├── metadata.json
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts
