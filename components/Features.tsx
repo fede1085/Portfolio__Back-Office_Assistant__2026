@@ -3,7 +3,7 @@ import React from 'react';
 
 interface Skill {
   title: string;
-  
+
 }
 
 interface PersonalSkillsProps {
@@ -30,19 +30,19 @@ const PersonalSkills: React.FC<PersonalSkillsProps> = ({ skills }) => {
     <section id="personal-skills" className="pb-20 sm:pb-28">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
         <div className="text-center">
-            <h2 className="text-base font-semibold text-indigo-600 tracking-wider uppercase">Skills</h2>
-            <p className="mt-2 text-lg font-extrabold text-black tracking-tight sm:text-3xl">Core Competencies</p>
+          <h2 className="text-base font-semibold text-indigo-600 tracking-wider uppercase">Skills</h2>
+          <p className="mt-2 text-lg font-extrabold text-[#333131] tracking-tight sm:text-3xl">Core Competencies</p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-0">
           {skills.map((skill, index) => {
             const Icon = skillIcons[index % skillIcons.length];
             return (
               <div key={index} className="text-center px-4">
-                <div className="flex items-center justify-center h-16 w-16 rounded-md border border-gray-300 bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-black transition-colors mx-auto">
-  <Icon className="h-8 w-8" aria-hidden="true" />
-</div>
+                <div className="flex items-center justify-center h-16 w-16 rounded-md border border-gray-300 bg-gray-100 text-[#333131] hover:bg-gray-200 hover:text-[#333131] transition-colors mx-auto">
+                  <Icon className="h-8 w-8" aria-hidden="true" />
+                </div>
 
-                <h3 className="mt-6 text-base leading-6 font-medium text-black">
+                <h3 className="mt-6 text-base leading-6 font-medium text-[#333131]">
                   {skill.title}
                 </h3>
               </div>

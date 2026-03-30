@@ -2,12 +2,12 @@ import { Brain, Search, Laptop, Lightbulb } from "lucide-react"
 
 export default function SoftSkills() {
   return (
-    <section className="py-16 bg-white pb-4 sm:py-20">
+    <section id="skills" className="py-16 bg-white pb-4 sm:py-20">
       <div className="text-center">
-        <h3 className="text-sm font-semibold text-[#0078d4] uppercase tracking-wide">
+        <h3 className="text-sm font-semibold text-[#0067B8] uppercase tracking-wide">
           How I Help
         </h3>
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-black">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-[#333131]">
           Operational Support & Back-Office Solutions
         </h2>
       </div>
@@ -17,7 +17,7 @@ export default function SoftSkills() {
           {[
             {
               icon: <Brain size={22} strokeWidth={2.7} />,
-              label: "Structure Documents & Eliminate File Chaos",
+              label: "Organize Documents, Folders & Shared Libraries",
               desc: "Keep files, folders and shared information clear and easy to follow.",
               problem: "Scattered files, duplicate versions and unclear structures.",
               solution: [
@@ -49,15 +49,32 @@ export default function SoftSkills() {
                 { name: "Power Automate", icon: "/app-logos/workflow_tools/logo_power-automate.svg" },
               ],
             },
+            // {
+            //   icon: <Laptop size={22} strokeWidth={2.7} />,
+            //   label: "Track Tasks, Requests & Project Follow-Ups",
+            //   desc: "Make daily work visible and easy to track.",
+            //   problem: "Tasks lost in emails and missed deadlines.",
+            //   solution: [
+            //     "Convert daily work into clear task lists",
+            //     "Track responsibilities and progress",
+            //     "Keep deadlines visible for the team",
+            //   ],
+            //   tools: [
+            //     { name: "Planner", icon: "/app-logos/workflow_tools/logo_planner.svg" },
+            //     { name: "Lists", icon: "/app-logos/core_tools/logo_sharepoint-lists.svg" },
+            //     { name: "Teams", icon: "/app-logos/core_tools/logo_teams.svg" },
+            //     { name: "OneNote", icon: "/app-logos/productivity_tools/logo_one-note.svg" },
+            //   ],
+            // },
             {
               icon: <Laptop size={22} strokeWidth={2.7} />,
-              label: "Track Tasks & Follow-Ups",
-              desc: "Make daily work visible and easy to track.",
+              label: "Track Tasks, Requests & Project Follow-Ups",
+              desc: "Help manage tasks, emails and shared information across teams.",
               problem: "Tasks lost in emails and missed deadlines.",
               solution: [
-                "Convert daily work into clear task lists",
-                "Track responsibilities and progress",
-                "Keep deadlines visible for the team",
+                "Organize requests and daily work into clear task lists",
+                "Track responsibilities and progress across teams",
+                "Keep deadlines visible and follow-ups clear"
               ],
               tools: [
                 { name: "Planner", icon: "/app-logos/workflow_tools/logo_planner.svg" },
@@ -68,12 +85,12 @@ export default function SoftSkills() {
             },
             {
               icon: <Lightbulb size={22} strokeWidth={2.7} />,
-              label: "Support Daily Admin Work",
+              label: "Support Daily Administrative Work",
               desc: "Reduce repetitive tasks and keep daily work consistent.",
               problem: "Manual tasks, duplicated work and lack of clarity.",
               solution: [
                 "Keep repetitive tasks simple and organized",
-                "Create simple tracking systems",
+                "Use of tools to track tasks and follow-ups",
                 "Reduce errors in daily work",
               ],
               tools: [
@@ -86,26 +103,25 @@ export default function SoftSkills() {
           ].map((skill, index) => (
             <div
               key={skill.label}
-              className={`flex flex-col sm:flex-row items-start gap-6 ${
-                index !== 3 ? "pb-12 border-b border-gray-100" : ""
-              }`}
+              className={`flex flex-col sm:flex-row items-start gap-6 ${index !== 3 ? "pb-12 border-b border-gray-200" : ""
+                }`}
             >
-              <div className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-100 text-[#0078d4]">
+              <div className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-100 text-[#0067B8]">
                 {skill.icon}
               </div>
 
               <div className="flex-1 text-left">
-                <h4 className="text-xl font-bold text-black">
+                <h4 className="text-xl font-bold text-[#333131]">
                   {skill.label}
                 </h4>
 
-                <p className="text-gray-500 mt-2">
+                <p className="text-[#333131] mt-2">
                   {skill.desc}
                 </p>
 
                 <div className="mt-6 space-y-4">
                   <div>
-                    <p className="text-xs text-black uppercase font-semibold mb-1">
+                    <p className="text-xs text-[#333131] uppercase font-semibold mb-1">
                       Problem
                     </p>
                     <p className="text-gray-600">
@@ -114,7 +130,7 @@ export default function SoftSkills() {
                   </div>
 
                   <div>
-                    <p className="text-xs text-black uppercase font-semibold mb-1">
+                    <p className="text-xs text-[#333131] uppercase font-semibold mb-1">
                       How I support
                     </p>
                     <ul className="space-y-1 text-gray-600">
@@ -126,7 +142,7 @@ export default function SoftSkills() {
                 </div>
 
                 <div className="mt-6">
-                  <p className="text-xs uppercase font-semibold mb-3">
+                  <p className="text-xs text-[#333131] uppercase font-semibold mb-3">
                     Tools
                   </p>
 
@@ -134,14 +150,14 @@ export default function SoftSkills() {
                     {skill.tools.map((tool, i) => (
                       <div
                         key={i}
-                        className="flex items-center gap-2 px-2 py-1 rounded-md bg-gray-50 border border-gray-100"
+                        className="flex items-center gap-1 px-2 py-1 rounded-sm bg-gray-50 border border-gray-200"
                       >
                         <img
                           src={tool.icon}
                           alt={tool.name}
                           className="w-4 h-4 object-contain"
                         />
-                        <span className="text-xs text-gray-600">
+                        <span className="text-xs font-medium text-gray-700">
                           {tool.name}
                         </span>
                       </div>

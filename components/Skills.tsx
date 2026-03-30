@@ -21,17 +21,17 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
   ];
 
   return (
-    <section id="skills" className="pb-12 sm:py-20 sm:pb-28 text-black">
+    <section id="tools" className="pb-12 sm:py-20 sm:pb-28 text-[#333131]">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="text-center">
-          <h2 className="text-sm font-semibold text-[#0078d4] tracking-wider uppercase">
+          <h2 className="text-sm font-semibold text-[#0067B8] tracking-wider uppercase">
             Digital Tools
           </h2>
           <p className="mt-2 text-2xl font-extrabold tracking-tight sm:text-3xl">
             Microsoft 365 & AI Tool Stack
           </p>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-500">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-[#333131]">
             Focused on Microsoft 365 and digital tools to organize information,
             manage documents and support team operations.
           </p>
@@ -71,7 +71,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
 
             return (
               <div key={category}>
-                <h3 className="text-lg font-bold text-black tracking-wide capitalize mb-4 border-b border-gray-200 pb-2">
+                <h3 className="text-lg font-bold text-[#333131] tracking-wide capitalize mb-4 border-b border-gray-200 pb-2">
                   {category.replace(/_/g, ' ')}
                 </h3>
 
@@ -85,7 +85,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
                     return (
                       <div
                         key={tool}
-                        className="flex items-center gap-1 px-4 py-2 rounded-lg border border-gray-300 bg-gray-100 hover:bg-gray-200 transition-colors"
+                        className="flex items-center gap-1 px-2 py-1 rounded-sm border border-gray-200 bg-gray-50 hover:bg-gray-100 transition-colors"
                       >
                         <img
                           src={logoPath}
@@ -105,7 +105,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
 
           {/* 🔥 NUEVA SECCIÓN AI TOOLS */}
           <div>
-            <h3 className="text-lg font-bold text-black tracking-wide capitalize mb-4 border-b border-gray-200 pb-2">
+            <h3 className="text-lg font-bold text-[#333131] tracking-wide capitalize mb-4 border-b border-gray-200 pb-2">
               AI support tools
             </h3>
 
@@ -113,7 +113,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
               {aiTools.map((tool) => (
                 <div
                   key={tool}
-                  className="flex items-center gap-1 px-4 py-2 rounded-lg border border-gray-300 bg-gray-100 hover:bg-gray-200 transition-colors"
+                  className="flex items-center gap-1 px-2 py-1 rounded-sm border border-gray-200 bg-gray-50 hover:bg-gray-100 transition-colors"
                 >
                   <span className="text-sm font-medium text-gray-700">
                     {tool}

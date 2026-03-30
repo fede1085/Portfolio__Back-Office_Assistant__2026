@@ -11,18 +11,12 @@ export const resumeData = {
   professional_profile: {
     title: "Back-Office Assistant | Operations Support",
     summary:
-      "I support daily operations by organizing information, managing documents and supporting team workflows to keep daily work clear and organized using Microsoft 365 tools."
+      "I support daily operations by organizing information, managing documents and supporting team workflows to be more clear and efficient using Microsoft 365 tools. I assist teams with daily administrative coordination and help manage tasks, emails and shared information across teams."
   },
 
   value_proposition: [
-    "Back-office operations support focused on bringing clarity, structure and reliability to daily administrative work. I help teams keep documents, tasks and communication organized using Microsoft 365 and simple and practical ways of working."
+    "Back-office operations support focused on bringing clarity, structure and reliability to daily administrative work. I help teams keep documents, tasks and communication organized using Microsoft 365 and simple ways of organizing daily work, including document handling and data organization."
   ],
-
-/////////
-
-  // tool_stack: { ... }  ← intacto
-
-/////////
 
   tool_stack: {
     core_tools: [
@@ -57,13 +51,13 @@ export const resumeData = {
 
   experience: [
     {
-      role: "Independent Administrative & Digital Workflow Support",
+      role: "Administrative & Operations Support",
       location: "Antwerp",
       period: "2024–Present",
       highlights: [
         "Supported day-to-day organization of documents and information across digital tools",
-        "Worked within Microsoft 365 environments to assist daily operations and team coordination",
-        "Helped keep workflows clear and easy to follow in routine administrative processes"
+        "Worked within Microsoft 365 applications and tools to assist daily operations, document handling and team coordination",
+        "Helped organize daily work and keep administrative tasks clear and easy to follow"
       ]
     }
   ],

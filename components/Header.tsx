@@ -7,23 +7,23 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ name }) => {
   const navLinks = [
     { name: 'Overview', href: '#overview' },
-    { name: 'Skills', href: '#personal-skills' },
-    { name: 'Tools', href: '#skills' },
-    { name: 'Experience', href: '#experience' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Tools', href: '#tools' },
+    { name: 'Background', href: '#experience' },
     { name: 'Hire me', href: '#contact' },
   ];
 
   return (
-    <header className="bg-white">
+    <header className="bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center h-20">
+        <div className="flex items-center justify-center h-14">
           <div className="hidden md:block">
             <nav className="flex items-baseline space-x-4">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-black hover:text-gray-400 px-3 py-2 text-sm font-medium transition-colors"
+                  className="text-[#333131] hover:text-gray-400 px-3 py-2 text-[15px] hover:underline hover:decoration-[#333131] hover:decoration-2 hover:underline-offset-[8px]"
                 >
                   {link.name}
                 </a>

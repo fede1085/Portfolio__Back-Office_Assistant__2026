@@ -8,7 +8,7 @@ export default function SoftSkills() {
         <h3 className="text-sm font-semibold text-purple-600 uppercase tracking-wide">
           Soft Skills
         </h3>
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-black">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-[#333131]">
           Work Approach & Competencies
         </h2>
       </div>
@@ -32,13 +32,13 @@ export default function SoftSkills() {
               {skill.icon}
             </div>
 
-            <h4 className="text-lg font-bold text-black">{skill.label}</h4>
-            <p className="text-md text-gray-500 mt-1">{skill.desc}</p>
+            <h4 className="text-lg font-bold text-[#333131]">{skill.label}</h4>
+            <p className="text-md text-[#333131] mt-1">{skill.desc}</p>
           </div>
         ))}
       </div>
 
-      
+
     </section>
   )
 }
