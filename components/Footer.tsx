@@ -10,7 +10,7 @@ interface FooterProps {
 }
 
 const GradientText: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <span className="bg-[linear-gradient(90deg,#0078d4_0%,#17A4E8_50%,#5DE4FB_100%)] text-transparent bg-clip-text">
+  <span className="bg-[linear-gradient(90deg,#0067b8_0%,#018ee4_50%,#6ae5fc_100%)] text-transparent bg-clip-text">
     {children}
   </span>
 );

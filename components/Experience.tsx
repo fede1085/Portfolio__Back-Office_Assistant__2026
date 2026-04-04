@@ -37,7 +37,7 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
                     ) : null}
                     <div className="relative flex space-x-4 items-start">
                       <div>
-                        <span className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
+                        <span className="h-10 w-10 rounded-full border border-gray-200 bg-[#F7F7F7] flex items-center justify-center">
                           <BriefcaseIcon className="h-5 w-5 text-[#333131]" aria-hidden="true" />
                         </span>
                       </div>

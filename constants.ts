@@ -11,7 +11,8 @@ export const resumeData = {
   professional_profile: {
     title: "Back-Office Assistant | Operations Support",
     summary:
-      "I support daily operations by organizing information, managing documents and supporting team workflows to be more clear and efficient using Microsoft 365 tools. I assist teams with daily administrative coordination and help manage tasks, emails and shared information across teams."
+      "I support daily operations by organizing information, managing documents and supporting administrative workflows to be more clear and efficient using Microsoft 365 tools."
+    // I assist teams with daily administrative coordination and help manage tasks, emails and shared information across teams.
   },
 
   value_proposition: [
@@ -27,7 +28,7 @@ export const resumeData = {
       "Teams"
     ],
 
-    productivity_tools: [
+    extended_toolset: [
       "Word",
       "Excel",
       "PowerPoint",

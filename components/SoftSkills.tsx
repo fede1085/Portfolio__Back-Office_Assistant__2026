@@ -1,4 +1,4 @@
-import { Brain, Search, Laptop, Lightbulb } from "lucide-react"
+import { Brain, Search, Laptop, Lightbulb, Bot } from "lucide-react"
 
 export default function SoftSkills() {
   return (
@@ -66,6 +66,7 @@ export default function SoftSkills() {
             //     { name: "OneNote", icon: "/app-logos/productivity_tools/logo_one-note.svg" },
             //   ],
             // },
+
             {
               icon: <Laptop size={22} strokeWidth={2.7} />,
               label: "Track Tasks, Requests & Project Follow-Ups",
@@ -100,13 +101,31 @@ export default function SoftSkills() {
                 { name: "Outlook", icon: "/app-logos/core_tools/logo_outlook.svg" },
               ],
             },
+                        {
+              icon: <Bot size={22} strokeWidth={2.7} />,
+              label: "AI-Enhanced Information Structuring",
+              desc: "Prepare and structure information before integrating it into Microsoft 365 workflows.",
+              problem: "Unstructured information, scattered data and unclear task ownership slow down daily operations.",
+              solution: [
+                "Research and analyze information from different sources",
+                "Create clear summaries and extract key insights",
+                "Structure tasks, priorities and follow-ups",
+                "Prepare project notes and documentation",
+                "Organize information into clear and usable formats"
+              ],
+              tools: [
+                { name: "ChatGPT", icon: "/app-logos/ai_tools/chatgpt-icon.svg" },
+                { name: "Perplexity", icon: "/app-logos/ai_tools/perplexity-icon.svg" },
+                { name: "Gemini", icon: "/app-logos/ai_tools/gemini-icon.svg" },
+                { name: "NotebookLM", icon: "/app-logos/ai_tools/notebooklm-icon.svg" }
+              ],
+            }
           ].map((skill, index) => (
             <div
               key={skill.label}
-              className={`flex flex-col sm:flex-row items-start gap-6 ${index !== 3 ? "pb-12 border-b border-gray-200" : ""
-                }`}
+              className={`flex flex-col sm:flex-row items-start gap-6 ${index !== 4 ? "pb-12 border-b border-gray-200" : ""}`}
             >
-              <div className="w-11 h-11 flex items-center justify-center rounded-full bg-gray-100 text-[#0067B8]">
+              <div className="w-11 h-11 flex items-center justify-center rounded-full bg-[#F7F7F7] text-[#0067B8] border border-gray-300">
                 {skill.icon}
               </div>
 
@@ -150,7 +169,7 @@ export default function SoftSkills() {
                     {skill.tools.map((tool, i) => (
                       <div
                         key={i}
-                        className="flex items-center gap-1 px-2 py-1 rounded-sm bg-gray-50 border border-gray-200"
+                        className="flex items-center gap-1 px-2 py-1 rounded-sm bg-[#F7F7F7] border border-gray-200"
                       >
                         <img
                           src={tool.icon}

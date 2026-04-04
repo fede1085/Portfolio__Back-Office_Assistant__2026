@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ name }) => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-[#333131] hover:text-gray-400 px-3 py-2 text-[15px] hover:underline hover:decoration-[#333131] hover:decoration-2 hover:underline-offset-[8px]"
+                  className="text-[#333131] hover:text-gray-400 px-3 py-2 text-[13px] hover:underline hover:decoration-[#333131] hover:decoration-2 hover:underline-offset-[8px]"
                 >
                   {link.name}
                 </a>
