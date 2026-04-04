@@ -16,7 +16,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
   const [showMore, setShowMore] = React.useState(false);
 
   return (
-    <section id="tools" className="pb-12 sm:py-20 sm:pb-28 text-[#333131]">
+    <section id="tools" className="pb-1 sm:py-20 sm:pb-12 text-[#333131]">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center">

@@ -23,7 +23,7 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-sm font-semibold text-[#0067B8] tracking-wider uppercase">Timeline</h2>
-          <p className="mt-2 text-2xl font-extrabold text-[#333131] tracking-tight sm:text-3xl">Operational Experience</p>
+          <p className="mt-2 text-2xl font-extrabold text-[#333131] tracking-tight sm:text-3xl">Operational Background</p>
         </div>
 
         <div className="mt-16 max-w-3xl mx-auto">
