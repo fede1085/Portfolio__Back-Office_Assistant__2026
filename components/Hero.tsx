@@ -64,8 +64,9 @@ const Hero: React.FC<HeroProps> = ({ name, profile, contactEmail }) => {
             <div className="flex flex-wrap gap-4">
 
               <a
-                href="#"
-                className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-sm font-medium rounded-[4px] text-white bg-[#333131] hover:bg-gray-200 hover:text-[#333131] transition-colors"
+                href="/Back-Office_Assistant_Curriculum.pdf"
+                download="Federico-Mosqueira-CV.pdf"
+                className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-sm font-medium rounded-[3px] text-white bg-[#333131] hover:bg-gray-200 hover:text-[#333131] transition-colors"
               >
                 Download Curriculum
               </a>

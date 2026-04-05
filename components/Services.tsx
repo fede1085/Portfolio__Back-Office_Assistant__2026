@@ -9,7 +9,7 @@ const Services: React.FC<ServicesProps> = ({ valueProposition }) => {
     <section id="overview" className="pb-12 sm:py-20">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-sm font-semibold text-[#0067B8] tracking-wider uppercase">
+          <h2 className="text-sm font-medium text-[#0067B8] tracking-widest uppercase">
             Value Proposition
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-[#333131]">

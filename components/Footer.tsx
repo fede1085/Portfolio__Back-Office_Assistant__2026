@@ -19,7 +19,7 @@ const Footer: React.FC<FooterProps> = ({ data }) => {
   const [email, phone] = data.contact.split(' | ');
 
   return (
-    <footer id="contact" className="pb-12 sm:py-12 sm:pb-4 bg-white text-[#333131]">
+    <footer id="contact" className="pb-12 sm:py-20 sm:pb-4 bg-[#F7F7F7] text-[#333131]">
       <div className="max-w-3xl mx-auto pb-18 px-4 sm:px-6 lg:px-8">
 
         <div className="text-center">

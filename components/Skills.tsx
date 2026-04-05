@@ -20,7 +20,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center">
-          <h2 className="text-sm font-semibold text-[#0067B8] tracking-wider uppercase">
+          <h2 className="text-sm font-medium text-[#0067B8] tracking-widest uppercase">
             Digital Tools
           </h2>
           <p className="mt-2 text-2xl font-extrabold tracking-tight sm:text-3xl">
@@ -131,7 +131,7 @@ const Skills: React.FC<SkillsProps> = ({ toolStack }) => {
                       onClick={() => setShowMore(!showMore)}
                       className="mt-4 text-sm text-[#0067B8] hover:underline"
                     >
-                      {showMore ? "Hide extra tools" : "View more tools"}
+                      {showMore ? "Hide toolset" : "View full toolset"}
                     </button>
                   )}
 

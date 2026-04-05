@@ -4,7 +4,7 @@ export default function SoftSkills() {
   return (
     <section id="skills" className="py-16 bg-white pb-4 sm:py-20">
       <div className="text-center">
-        <h3 className="text-sm font-semibold text-[#0067B8] uppercase tracking-wide">
+        <h3 className="text-sm font-medium text-[#0067B8] uppercase tracking-widest">
           How I Help
         </h3>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-[#333131]">
