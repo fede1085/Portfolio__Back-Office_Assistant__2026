@@ -37,7 +37,7 @@ const Hero: React.FC<HeroProps> = ({ name, profile, contactEmail }) => {
             </h1>
 
             {/* 🔥 TÍTULO DESDE CONSTANTS */}
-            <div className="flex items-center justify-center mt-2 text-sm font-semibold text-[#0067B8] tracking-wide uppercase">
+            <div className="flex items-center justify-center mt-2 text-sm font-medium text-[#0067B8] tracking-widest uppercase">
               <span className="leading-none">
                 {profile.title}
               </span>

@@ -1,4 +1,4 @@
-import { Brain, Search, Laptop, Lightbulb, Bot } from "lucide-react"
+import { ClipboardList, MailCheck, Laptop, Bot, FolderCheck } from "lucide-react"
 
 export default function SoftSkills() {
   return (
@@ -16,8 +16,9 @@ export default function SoftSkills() {
         <div className="space-y-16">
           {[
             {
-              icon: <Brain size={22} strokeWidth={2.7} />,
+              icon: <FolderCheck size={22} strokeWidth={2} />,
               label: "Organize Documents, Folders & Shared Libraries",
+              slug: "document-management",
               desc: "Keep files, folders and shared information clear and easy to follow.",
               problem: "Scattered files, duplicate versions and unclear structures.",
               solution: [
@@ -33,8 +34,9 @@ export default function SoftSkills() {
               ],
             },
             {
-              icon: <Search size={22} strokeWidth={2.7} />,
-              label: "Manage Shared Inboxes & Email Flow",
+              icon: <MailCheck size={22} strokeWidth={2} />,
+              label: "Manage Shared Inboxes & Email Follow-Up",
+              slug: "shared-inbox",
               desc: "Bring structure to busy inboxes and daily communication.",
               problem: "Unclear ownership, lost emails and slow responses.",
               solution: [
@@ -46,30 +48,12 @@ export default function SoftSkills() {
                 { name: "Outlook", icon: "/app-logos/core_tools/logo_outlook.svg" },
                 { name: "Planner", icon: "/app-logos/workflow_tools/logo_planner.svg" },
                 { name: "Teams", icon: "/app-logos/core_tools/logo_teams.svg" },
-                { name: "Power Automate", icon: "/app-logos/workflow_tools/logo_power-automate.svg" },
               ],
             },
-            // {
-            //   icon: <Laptop size={22} strokeWidth={2.7} />,
-            //   label: "Track Tasks, Requests & Project Follow-Ups",
-            //   desc: "Make daily work visible and easy to track.",
-            //   problem: "Tasks lost in emails and missed deadlines.",
-            //   solution: [
-            //     "Convert daily work into clear task lists",
-            //     "Track responsibilities and progress",
-            //     "Keep deadlines visible for the team",
-            //   ],
-            //   tools: [
-            //     { name: "Planner", icon: "/app-logos/workflow_tools/logo_planner.svg" },
-            //     { name: "Lists", icon: "/app-logos/core_tools/logo_sharepoint-lists.svg" },
-            //     { name: "Teams", icon: "/app-logos/core_tools/logo_teams.svg" },
-            //     { name: "OneNote", icon: "/app-logos/productivity_tools/logo_one-note.svg" },
-            //   ],
-            // },
-
             {
-              icon: <Laptop size={22} strokeWidth={2.7} />,
-              label: "Track Tasks, Requests & Project Follow-Ups",
+              icon: <ClipboardList size={22} strokeWidth={2} />,
+              label: "Track Tasks, Requests & Project Progress",
+              slug: "task-tracking",
               desc: "Help manage tasks, emails and shared information across teams.",
               problem: "Tasks lost in emails and missed deadlines.",
               solution: [
@@ -85,8 +69,9 @@ export default function SoftSkills() {
               ],
             },
             {
-              icon: <Lightbulb size={22} strokeWidth={2.7} />,
+              icon: <Laptop size={22} strokeWidth={2} />,
               label: "Support Daily Administrative Work",
+              slug: "administrative-support",
               desc: "Reduce repetitive tasks and keep daily work consistent.",
               problem: "Manual tasks, duplicated work and lack of clarity.",
               solution: [
@@ -97,13 +82,13 @@ export default function SoftSkills() {
               tools: [
                 { name: "Excel", icon: "/app-logos/productivity_tools/logo_excel.svg" },
                 { name: "Forms", icon: "/app-logos/productivity_tools/logo_forms.svg" },
-                { name: "Power Automate", icon: "/app-logos/workflow_tools/logo_power-automate.svg" },
                 { name: "Outlook", icon: "/app-logos/core_tools/logo_outlook.svg" },
               ],
             },
-                        {
-              icon: <Bot size={22} strokeWidth={2.7} />,
+            {
+              icon: <Bot size={22} strokeWidth={2} />,
               label: "AI-Enhanced Information Structuring",
+              slug: "ai-structuring",
               desc: "Prepare and structure information before integrating it into Microsoft 365 workflows.",
               problem: "Unstructured information, scattered data and unclear task ownership slow down daily operations.",
               solution: [
@@ -165,7 +150,7 @@ export default function SoftSkills() {
                     Tools
                   </p>
 
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-8">
                     {skill.tools.map((tool, i) => (
                       <div
                         key={i}
@@ -182,6 +167,16 @@ export default function SoftSkills() {
                       </div>
                     ))}
                   </div>
+                </div>
+
+                {/* 🔥 NUEVO LINK */}
+                <div className="mt-4">
+                  <a
+                    href={`/case/${skill.slug}`}
+                    className="text-sm font-regular text-[#0067B8] underline"
+                  >
+                    View Case Study →
+                  </a>
                 </div>
 
               </div>
